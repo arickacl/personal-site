@@ -1,0 +1,82 @@
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.aricka-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  margin-top: 25px;
+  float: left;
+}
+
+.header {
+  height: 0px;
+}
+
+.header nav {
+  display: inline-block;
+  margin-top: 35px;
+}
+
+.header a {
+  padding: 20px 20px 20px 20px;
+  font-family: Lato;
+  font-weight: 300;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+  color: #ffffff;
+}
+
+.header a:nth-of-type(4) {
+  padding: 20px 0 20px 20px;
+}
+
+.intro {
+  width: 675px;
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: 300;
+  line-height: 1.22;
+  text-align: left;
+  color: #ffffff;
+  padding: 200px 0;
+}
+
+.hero {
+  background-image: url(/static/images/hero-image.png);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media only screen and (min--moz-device-pixel-ratio: 2),
+only screen and (-o-min-device-pixel-ratio: 2/1),
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (min-device-pixel-ratio: 2) {
+  .hero {
+    background: url(/static/images/hero-image@2x.png) no-repeat;
+    background-size: 100% auto;
+  }
+}
+
+.footer {
+  width: 100%;
+  height: 70px;
+  background-color: #212121;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 70px;
+  font-weight: 300;
+}
+
+.work-btn {
+  border-radius: 100px;
+  background-color: #ff4162;
+  font-family: Lato;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+  color: #ffffff !important;
+  padding: 15px 40px;
+}

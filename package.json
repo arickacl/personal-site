@@ -12,9 +12,5 @@
     "next": "^2.4.7",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
-  },
-  "devDependencies": {
-    "babel-plugin-css-modules-transform": "^1.2.1",
-    "node-sass": "^4.5.3"
   }
 }
