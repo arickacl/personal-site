@@ -9,6 +9,7 @@ export default ({ children, title = 'Aricka Lewis' }) => (
       <meta charSet='utf-8' />
       <meta name='viewport' content='initial-scale=1.0, width=device-width' />
       <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet"/>
+      <link href="/static/css/font-awesome.min.css" rel="stylesheet"/>
       <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
       <link href="/static/css/style.css" rel="stylesheet"/>
     </Head>
@@ -16,7 +17,7 @@ export default ({ children, title = 'Aricka Lewis' }) => (
 
     {children}
 
-    <footer className='footer text-right'>
+    <footer className='footer'>
       <div className='container'>
         {'© 2017 I finally got around to designing a site for myself. Hooray!'}
       </div>

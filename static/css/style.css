@@ -61,6 +61,79 @@ only screen and (min-device-pixel-ratio: 2) {
   }
 }
 
+.pink-btn {
+  border-radius: 100px;
+  background-color: #ff4162;
+  font-family: Lato;
+  font-size: 12px;
+  letter-spacing: 1.7px;
+  color: #ffffff !important;
+  padding: 15px 40px;
+  cursor: pointer;
+}
+
+.headshot-cutout {
+  margin-top: 50px;
+  width: 559px;
+  height: 500px;
+  object-fit: contain;
+}
+
+.bio-header {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 300;
+  margin-bottom: 30px;
+  margin-top: 75px;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.bio a {
+  color: #ff4162;
+}
+
+.bio .fa {
+  width: 36px;
+  height: 24px;
+  font-size: 24px;
+  color: #ff4162;
+}
+
+.social-nav {
+  margin-top: 30px;
+}
+
+.connect {
+  text-align: center;
+  background-color: #212121;
+  color: #ffffff;
+  font-family: Lato;
+  font-weight: 300;
+  padding: 50px 0;
+}
+
+.connect-header {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.connect-blurb {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.portfolio h2 {
+  font-family: Lato;
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.wider {
+  padding: 15px 80px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
 .footer {
   width: 100%;
   height: 70px;
@@ -69,14 +142,4 @@ only screen and (min-device-pixel-ratio: 2) {
   color: #ffffff;
   line-height: 70px;
   font-weight: 300;
-}
-
-.work-btn {
-  border-radius: 100px;
-  background-color: #ff4162;
-  font-family: Lato;
-  font-size: 12px;
-  letter-spacing: 1.7px;
-  color: #ffffff !important;
-  padding: 15px 40px;
 }

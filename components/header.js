@@ -4,7 +4,7 @@ const Header = () => (
   <div className='header'>
     <div className='container'>
       <img src="/static/images/aricka-logo-white.png"
-         srcset="/static/images/aricka-logo-white@2x.png 2x"
+         srcSet="/static/images/aricka-logo-white@2x.png 2x"
          className="aricka-logo"/>
       <div className='text-right'>
         <nav>
