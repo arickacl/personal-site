@@ -1,4 +1,5 @@
 import Layout from '../containers/layout'
+import PortfolioCard from '../components/portfolio_card'
 
 const IndexPage = () => (
   <Layout>
@@ -76,6 +77,52 @@ const IndexPage = () => (
     </div>
 
     <div className='portfolio'>
+      <div className='container'>
+        <div className='row'>
+          <PortfolioCard
+            src='/static/images/next-day-dumpsters.png'
+            srcset='/static/images/next-day-dumpsters@2x.png 2x'
+            title='Next Day Dumpsters'
+            subtext='Dynamic Landing Page, UI/UX, Google Analytics'
+          />
+          <PortfolioCard
+            src='/static/images/pet-ems.png'
+            srcset='/static/images/pet-ems@2x.png 2x'
+            title='PetEms'
+            subtext='Branding, Identity, UI/UX'
+          />
+        </div>
+
+        <div className='row'>
+          <PortfolioCard
+            src='/static/images/country-outfitter.png'
+            srcset='/static/images/country-outfitter@2x.png 2x'
+            title='Country Outfitter'
+            subtext='Marketing, Art Direction, Web Design'
+          />
+          <PortfolioCard
+            src='/static/images/dashboard-template.png'
+            srcset='/static/images/dashboard-template@2x.png 2x'
+            title='Dashboard Template'
+            subtext='Enterprise, UI/UX'
+          />
+        </div>
+
+        <div className='row'>
+          <PortfolioCard
+            src='/static/images/user-journey.png'
+            srcset='/static/images/user-journey@2x.png 2x'
+            title='User Journey Map'
+            subtext='UX Research, Research Documentation'
+          />
+          <PortfolioCard
+            src='/static/images/daily-ui-challenge-highlights.png'
+            srcset='/static/images/daily-ui-challenge-highlights@2x.png 2x'
+            title='DailyUI Highlights'
+            subtext='UI Design, Design Challenge'
+          />
+        </div>
+      </div>
 
       <div className= 'text-center'>
         <h2>Want to see more work?</h2>

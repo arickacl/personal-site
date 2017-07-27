@@ -122,7 +122,37 @@ only screen and (min-device-pixel-ratio: 2) {
   margin-bottom: 50px;
 }
 
+.portfolio-card {
+  margin-bottom: 50px;
+}
+
+.portfolio-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.portfolio-title {
+  margin-top: 25px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.portfolio-subtext {
+  font-family: Lato;
+  font-size: 14px;
+  text-align: center;
+  color: #bdbdbd;
+}
+
+.portfolio {
+  padding: 100px 0;
+}
+
 .portfolio h2 {
+  margin: 50px 0;
   font-family: Lato;
   font-size: 48px;
   font-weight: 300;
