@@ -4,12 +4,13 @@
   "description": "aricka's website",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "next",
+    "build": "next build && next export"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "next": "^2.4.7",
+    "next": "^3.0.1-beta.20",
     "react": "^15.6.1",
     "react-dom": "^15.6.1"
   }
